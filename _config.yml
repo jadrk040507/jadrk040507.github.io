@@ -32,7 +32,7 @@ launch_buttons:
   notebook_interface        : jupyterlab
 
 repository:
-  url                       : https://github.com/jadrk040507.github.io  # The URL to your book's repository
+  url                       : https://github.com/jadrk040507/jadrk040507.github.io  # The URL to your book's repository
   branch                    : main  # Which branch of the repository should be used when creating links
 
 sphinx:
