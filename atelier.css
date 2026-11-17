@@ -74,6 +74,13 @@ a:focus-visible { outline: 2px solid var(--action); outline-offset: 5px; }
 .entry-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; }
 .cv-entry h3 { font-weight: 500; font-size: 17px; line-height: 1.5; letter-spacing: -.015em; }
 .cv-entry > .text-link { margin-top: 12px; }
+.research-figure {
+  display: block;
+  width: min(100%, 420px);
+  margin-top: 16px;
+}
+.research-figure img { display: block; width: 100%; height: auto; }
+.research-figure:is(:hover, :focus-visible) { outline: 1px solid var(--line-strong); outline-offset: 8px; }
 .about-section h2, .cv-section h2 { transition: color 180ms ease-out, transform 180ms ease-out; }
 @media (hover: hover) and (pointer: fine) {
   .about-section h2:hover, .cv-section h2:hover { color: var(--action); transform: translateX(3px); }
